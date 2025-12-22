@@ -1,0 +1,3 @@
+config EXAMPLES_UART_FLASH
+	tristate "UART Flash Logger"
+	default n

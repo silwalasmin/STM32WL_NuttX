@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_FLASH_WRITE),)
+CONFIGURED_APPS += $(APPDIR)/examples/flash_write
+endif

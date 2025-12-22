@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_UART_FLASH),)
+CONFIGURED_APPS += $(APPDIR)/examples/uart_flash
+endif

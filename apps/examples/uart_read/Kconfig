@@ -1,0 +1,3 @@
+config EXAMPLES_UART_READ
+    tristate "UART Data Reader"
+    default n

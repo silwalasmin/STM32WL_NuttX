@@ -1,0 +1,6 @@
+config EXAMPLES_FLASH_WRITE
+	tristate "Flash Write uORB Subscriber"
+	default n
+	depends on UORB
+	---help---
+		Subscribes to uORB topic and writes data to flash.	
