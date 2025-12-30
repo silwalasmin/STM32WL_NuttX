@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_DATA_LOGGER),)
+CONFIGURED_APPS += $(APPDIR)/examples/data_logger
+endif

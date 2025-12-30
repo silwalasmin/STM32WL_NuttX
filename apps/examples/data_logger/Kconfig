@@ -1,0 +1,7 @@
+config EXAMPLES_DATA_LOGGER
+	tristate "Data Logger with uORB"
+	default n
+	depends on UORB
+	---help---
+		Combined UART reader and flash writer using uORB
+		publish-subscribe with RTOS threads.
